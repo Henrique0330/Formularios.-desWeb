@@ -1,0 +1,18 @@
+.h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(129, 184, 235);
+    color: rgb(255, 255, 255);
+}
+
+input{
+border: 1px solid #8f8989;
+   border-radius: 5px; 
+}
+.Flex{
+    display: flex;
+    margin: auto;
+}
