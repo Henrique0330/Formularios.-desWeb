@@ -1,18 +1,26 @@
-.h1{
+.h1 {
     text-align: center;
     font-size: 50px;
 }
 
-body{
+body {
     background-color: rgb(129, 184, 235);
     color: rgb(255, 255, 255);
 }
 
-input{
-border: 1px solid #8f8989;
-   border-radius: 5px; 
+input {
+    border: 1px solid #8f8989;
+    border-radius: 5px;
 }
-.Flex{
-    display: flex;
-    margin: auto;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    padding: auto;
+    padding: 20px;
+    text-align: center;
 }
